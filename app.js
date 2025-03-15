@@ -26,7 +26,7 @@ ScrollReveal({
     reset: true,
     distance: '60px',
     duration: 2500,
-    delay: 400
+    delay: 1000
 });
 
 //ScrollReveal().reveal('.left-head', { delay: 500, origin: 'left' });
