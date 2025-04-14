@@ -259,7 +259,7 @@ header {
 
 .first-cards {
    background-color: var(--bg-color);
-   height: 20rem;
+   width: 100%;
    border-radius: .5rem;
    padding: 1rem;
    box-shadow: 0 0 8px 0 rgba(0, 0, 0,0.7);
@@ -271,7 +271,7 @@ header {
 
 .second-cards {
     background-color: var(--bg-color);
-    height: 20rem;
+    width: 100%;
     border-radius: .5rem;
    padding: 1rem;
    box-shadow: 0 0 8px 0 rgba(0, 0, 0,0.7);
@@ -283,7 +283,7 @@ header {
 
  .third-cards {
     background-color: var(--bg-color);
-    height: 20rem;
+   width: 100%;
     border-radius: .5rem;
    padding: 1rem;
    box-shadow: 0 0 8px 0 rgba(0, 0, 0,0.7);
