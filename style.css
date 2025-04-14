@@ -9,7 +9,7 @@
 html {
     overflow-x: hidden;
 }
-f8f8ff
+
 body {
     background-color: var(--s-bg-color);
     background-position: center;
@@ -214,6 +214,7 @@ header {
 
 .monthly-specials img {
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.7);
 }
 
 @media(max-width: 720px){
@@ -226,6 +227,69 @@ header {
         padding: 1rem;
     }
 }
+
+/*******************/
+
+.cards-section {
+    min-height: 100vh;
+    padding: 5rem 5rem 0 5rem;
+}
+
+
+
+
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5rem;
+    text-align: center;
+    height: 100%;
+    padding: 1rem;
+    color: var(--text-color);
+}
+
+
+
+.first-cards {
+   background-color: var(--bg-color);
+   height: 20rem;
+   border-radius: .5rem;
+   padding: 1rem;
+   box-shadow: 0 0 8px 0 rgba(0, 0, 0,0.7);
+   transition: 0.5s;
+}
+.first-cards:hover {
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0,0.7);
+}
+
+.second-cards {
+    background-color: var(--bg-color);
+    height: 20rem;
+    border-radius: .5rem;
+   padding: 1rem;
+   box-shadow: 0 0 8px 0 rgba(0, 0, 0,0.7);
+   transition: 0.5s;
+ }
+ .second-cards:hover {
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0,0.7);
+}
+
+ .third-cards {
+    background-color: var(--bg-color);
+    height: 20rem;
+    border-radius: .5rem;
+   padding: 1rem;
+   box-shadow: 0 0 8px 0 rgba(0, 0, 0,0.7);
+   transition: 0.5s;
+ }
+ .third-cards:hover {
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0,0.7);
+}
+
+
+
+
 
 /************ SECOND WORKS SECTION DESIGN **************/
 
@@ -263,6 +327,7 @@ header {
 
 .spictures-grid img {
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.7);
 }
 
 .sclass-works h4 {
