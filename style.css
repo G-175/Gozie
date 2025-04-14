@@ -231,8 +231,7 @@ header {
 /*******************/
 
 .cards-section {
-    min-height: 100vh;
-    padding: 5rem 5rem 0 5rem;
+    padding: 2rem 3rem 0 3rem;
 }
 
 
@@ -247,6 +246,13 @@ header {
     height: 100%;
     padding: 1rem;
     color: var(--text-color);
+}
+
+@media(max-width: 720px){
+    .cards-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 
